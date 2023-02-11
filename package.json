@@ -1,0 +1,28 @@
+{
+  "name": "setcurrentcolor",
+  "version": "1.0.0",
+  "description": "svgo plugin for setting specified attributes (stroke and fill) with currentColor value",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uranetz/setcurrentcolor.git"
+  },
+  "keywords": [
+    "svgo",
+    "plugin",
+    "setcurrentcolor"
+  ],
+  "author": "Vladimir Smirnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uranetz/setcurrentcolor/issues"
+  },
+  "homepage": "https://github.com/uranetz/setcurrentcolor#readme",
+  "dependencies": {
+    "svgo": "^3.0.2"
+  },
+  "type": "module"
+}
