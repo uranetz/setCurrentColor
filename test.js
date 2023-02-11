@@ -11,10 +11,7 @@ const validResultSVG = '<svg width="400" height="110" fill="currentColor"><rect 
 
 try {
   const result = optimize(testSVG, {
-    // optional but recommended field
-    //path: 'path-to.svg',
     // all config fields are also available here
-    //multipass: true,
     plugins: [
       {...setCurrentColor,params:{attrs:'fill',paths:'svg:*'}}
     ],
