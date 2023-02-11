@@ -21,5 +21,7 @@ optimize( data, {
 ## params
 
 The "attrs" parameter a pattern to set currentColor value - default to fill and stroke
+<br/>
 The "force" parameter - changes attrs if they alredy set - default is false.
+<br/>
 The "path" parameter a pattern to set currentColor for
