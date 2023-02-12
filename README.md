@@ -2,6 +2,14 @@
 
 svgo plugin for set specified attributes (ex stroke and fill) with currentColor value
 
+## install
+
+install via npm 
+
+```
+npm install @uranetz/setcurrentcolor
+```
+
 ## usage
 
 add plugin to svgo optimize:
