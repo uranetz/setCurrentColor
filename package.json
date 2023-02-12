@@ -1,6 +1,6 @@
 {
   "name": "@uranetz/setcurrentcolor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "svgo plugin for setting specified attributes (stroke and fill) with currentColor value",
   "main": "index.js",
   "scripts": {
