@@ -1,6 +1,6 @@
 # setCurrentColor
 
-svgo plugin for set specified attributes (ex stroke and fill) with currentColor value
+svgo plugin for setting up specified attributes (ex stroke and fill) with currentColor value
 
 ## install
 
