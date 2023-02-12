@@ -25,3 +25,15 @@ The "attrs" parameter a pattern to set currentColor value - default to fill and 
 The "force" parameter - changes attrs if they alredy set - default is false.
 <br/>
 The "path" parameter a pattern to set currentColor for
+
+## test
+
+For test run 
+
+```
+npm test
+```
+
+## example and usage 
+
+Simple example showed in test.js. Advanced usage can be found in index.js .
