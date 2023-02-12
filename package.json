@@ -1,5 +1,5 @@
 {
-  "name": "setcurrentcolor",
+  "name": "@uranetz/setcurrentcolor",
   "version": "1.0.0",
   "description": "svgo plugin for setting specified attributes (stroke and fill) with currentColor value",
   "main": "index.js",
@@ -24,5 +24,6 @@
   "dependencies": {
     "svgo": ">v2.2.2"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {}
 }
