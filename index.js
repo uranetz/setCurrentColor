@@ -85,7 +85,11 @@ export const fn = (root, params) => {
     }
   }
   const attrs = params.attrs;
-
+  const hasAttrInStyle = function (styleName,styleAttr){
+    if(styleAttr == null || styleName == null || styleName == '') return null;
+    const regexp = new RegExp(styleName+':[^;]+;?');
+    return styleAttr.match(regexp);
+  }
   return {
     element: {
       enter: (node) => {
@@ -121,8 +125,11 @@ export const fn = (root, params) => {
               ) {
                 //match current element 
                 for(let attr of attrs){
-                    if(node.attributes[attr]==null || force){
+                    const regexp = hasAttrInStyle(attr,node.attributes.style);
+                    if( force || (node.attributes[attr]==null && regexp == null) ){
                         node.attributes[attr] = "currentColor";
+                        //remove attr from style if exists
+                        if(regexp !== null) node.attributes.style = node.attributes.style.replace(regexp,'');
                     }
                 }
               }
