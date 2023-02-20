@@ -10,6 +10,10 @@ install via npm
 npm install @uranetz/setcurrentcolor
 ```
 
+## new in v1.2.1
+
+from this version and up property to be replaced could be in style attribute too
+
 ## usage
 
 add plugin to svgo optimize:
